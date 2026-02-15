@@ -839,12 +839,16 @@ export const plugins: PluginInfoBase[] = [
     repo: 'northword/zotero-format-metadata',
     releases: [
       {
+        targetZoteroVersion: '9',
+        tagName: 'latest',
+      },
+      {
         targetZoteroVersion: '8',
         tagName: 'latest',
       },
       {
         targetZoteroVersion: '7',
-        tagName: 'latest',
+        tagName: 'v2.3.0',
       },
       {
         targetZoteroVersion: '6',
