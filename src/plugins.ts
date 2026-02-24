@@ -369,6 +369,16 @@ export const plugins: PluginInfoBase[] = [
     tags: ['ai', 'productivity', 'notes'],
   },
   {
+    repo: 'etShaw-zh/zotero-career-tracker',
+    releases: [
+      {
+        targetZoteroVersion: '8',
+        tagName: 'latest',
+      },
+    ],
+    tags: ['visualization'],
+  },
+  {
     repo: 'etShaw-zh/zotracer',
     releases: [
       {
